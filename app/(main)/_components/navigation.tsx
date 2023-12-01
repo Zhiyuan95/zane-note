@@ -132,9 +132,9 @@ const Navigation = () => {
         </div>
         <div className="mt-4">
           {/* <p>Documents</p> */}
-          {getDocs?.map((document) => (
+          {/* {getDocs?.map((document) => (
             <p key={document._id}>{document.title}</p>
-          ))}
+          ))} */}
         </div>
         <div
           onMouseDown={handleMouseDown}

@@ -22,6 +22,7 @@ export const create = mutation({
       isArchived: false,
       isPublished: false,
     });
+    return document;
   },
 });
 
